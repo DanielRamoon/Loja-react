@@ -1,38 +1,47 @@
+/* src/App.css */
+
+/* Reset de margens e preenchimentos para garantir que não haja espaços indesejados */
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+/* Definir uma cor de plano de fundo padrão para o aplicativo */
+body {
+  background-color: #fff;
+}
+
+/* Estilizar o contêiner principal do aplicativo */
 .App {
   text-align: center;
 }
 
+/* Estilizar o cabeçalho do aplicativo */
+.App-header {
+  background-color: #282c34;
+  color: white;
+  padding: 20px;
+}
+
+/* Estilizar o logotipo do aplicativo */
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Estilizar o texto do cabeçalho */
+.App-title {
+  font-size: 1.5rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* Estilizar o parágrafo de boas-vindas */
+.App-intro {
+  font-size: 1rem;
 }
 
-.App-link {
+/* Adicionar estilo a elementos de link */
+a {
   color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  text-decoration: none;
 }
